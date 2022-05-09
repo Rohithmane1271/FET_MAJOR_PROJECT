@@ -1,0 +1,38 @@
+<div class="docs-example-viewer-wrapper">
+    <div class="docs-example-viewer-title mat-elevation-z2">
+        <div class="docs-example-viewer-title-spacer">
+            <h3 style="color: aquamarine;">Login</h3>
+            <div>
+                <strong style="color: black;">New User? </strong>
+                <button mat-raised-button class="mat-elevation-z4">Register</button>
+            </div>
+        </div>
+    </div>
+    <div class="docs-example-viewer-body">
+        <div class="full-width">
+            <mat-card class="mat-elevation-z4">
+                <mat-card-subtitle>
+                    <!-- <mat-error *ngIf="loginForm.errors">Username or Password is incorrect.</mat-error> -->
+                </mat-card-subtitle>
+                <mat-card-content>
+                    <form>
+                        <mat-form-field class="full-width">
+                            <input matInput placeholder="Username" formControlName="username">
+                            <!-- <mat-error *ngIf="username.touched && username.invalid">Username is required</mat-error> -->
+                        </mat-form-field>
+
+                        <mat-form-field class="full-width">
+                            <input matInput placeholder="Password" formControlName="password">
+                            <mat-icon></mat-icon>
+                            <mat-error>Password is required</mat-error>
+                        </mat-form-field>
+                        <mat-card-actions>
+                            <div fxFlex></div>
+                            <button mat-raised-button color="primary">Login</button>
+                        </mat-card-actions>
+                    </form>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

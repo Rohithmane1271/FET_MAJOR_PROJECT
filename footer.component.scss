@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    min-height: 300px;
+    max-height: auto;
+  background-image: linear-gradient(to right top, #161616, #191919, #1b1b1b, #1e1e1e, #212121);
+    clear: both;
+  }
+  footer .footer-wrap{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 9%;
+    color: white;
+  }
+  .widgetFooter{
+    width: calc(85%/3);
+    height: auto;
+    float: left;
+    padding: 2.5%;
+    text-align: left;
+  }
+  h4.uppercase{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 20px;
+  }
+  ul#footerUsefulLink, ul#footerMediaLinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
